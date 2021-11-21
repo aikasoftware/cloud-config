@@ -9,8 +9,8 @@ zuul:
       
 ribbon: 
   eureka:
-    enabled: false
-echo-service:
-  ribbon:
-    listOfServers: http://localhost:8091,http://localhost:8092
+    enabled: true
+#echo-service:
+#  ribbon:
+#    listOfServers: http://localhost:8091,http://localhost:8092
     
